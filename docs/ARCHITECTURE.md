@@ -1,3 +1,17 @@
 # Architecture
 
-Describe system components, boundaries, dependencies, and runtime flow.
+## Purpose
+
+hyper-data-optimizer-84 evaluates data pipeline and runtime signals to improve observability and governance.
+
+## Components
+
+- Signal intake layer
+- Assessment engine
+- Output formatter for downstream automation
+
+## Runtime Flow
+
+1. Receive signal text/event.
+2. Compute deterministic risk score.
+3. Emit structured assessment result.
